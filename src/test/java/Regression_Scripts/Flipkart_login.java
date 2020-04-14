@@ -60,7 +60,7 @@ public class Flipkart_login extends Flipkart_Generic_URL {
 	@DataProvider(name="Databank")
 	public Object[][] fetchData()
 	{
-		Object[][] arrobj=DataProviderExcel.Getdata("Sheet6");
+		Object[][] arrobj=DataProviderExcel.Getdata("Sheet1");
 		return arrobj;
 	}
 
